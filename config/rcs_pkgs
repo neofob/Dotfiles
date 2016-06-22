@@ -1,0 +1,23 @@
+# Frequent used packages
+autoconf
+automake
+autotools-dev
+doxygen
+exuberant-ctags
+graphviz
+imagemagick
+libncurses5-dev
+mc
+pandoc
+pxz
+python-setuptools
+qeeqie
+qemu-utils
+ruby-maruku
+sshfs
+vim-nox
+virtualenv
+virtualenvwrapper
+xscreensaver
+xz-utils
+youtube-dl
