@@ -8,6 +8,8 @@ e2fslibs
 e2fslibs-dev
 e2fsprogs
 exuberant-ctags
+gcc
+gource
 graphviz
 imagemagick
 libncurses5-dev
