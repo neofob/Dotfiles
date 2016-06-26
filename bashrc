@@ -117,3 +117,8 @@ export POWERLINE_COMMAND=~/src/powerline/scripts/powerline
 
 export WORKON_HOME=~/.env
 mkdir -p $WORKON_HOME
+
+function docker_rm_all()
+{
+	docker ps -a | tail -n +2 | awk '{print $1}' | xargs docker rm $1
+}
