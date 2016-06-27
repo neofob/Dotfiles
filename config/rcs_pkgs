@@ -23,6 +23,7 @@ geeqie
 qemu-utils
 ruby-maruku
 shellcheck
+sparse
 sshfs
 vim-nox
 virtualenv
