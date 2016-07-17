@@ -8,6 +8,7 @@ e2fslibs
 e2fslibs-dev
 e2fsprogs
 exuberant-ctags
+inxi
 gcc
 gource
 graphviz
