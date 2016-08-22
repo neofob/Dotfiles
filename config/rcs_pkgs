@@ -8,6 +8,7 @@ e2fslibs
 e2fslibs-dev
 e2fsprogs
 exuberant-ctags
+facter
 inxi
 gcc
 gource
@@ -17,6 +18,8 @@ libncurses5-dev
 mc
 pandoc
 pep8
+pigz
+pv
 pxz
 pylint
 python-setuptools
