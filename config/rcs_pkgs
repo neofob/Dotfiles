@@ -2,6 +2,7 @@
 autoconf
 automake
 autotools-dev
+cryptsetup
 darktable
 doxygen
 e2fslibs
@@ -18,6 +19,7 @@ libncurses5-dev
 mc
 pandoc
 pep8
+pidgin
 pigz
 pv
 pxz
@@ -26,6 +28,7 @@ python-setuptools
 geeqie
 qemu-utils
 ruby-maruku
+recoll
 shellcheck
 sparse
 sshfs
