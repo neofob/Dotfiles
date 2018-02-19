@@ -61,3 +61,5 @@ if has("autocmd")
 endif
 
 autocmd BufNewFile,BufRead Vagrantfile setl filetype=ruby
+autocmd BufNewFile,BufRead *.yaml,*.yml setl filetype=yaml tabstop=2 shiftwidth=2 expandtab
+autocmd Syntax yaml syn match WhiteSpace /\s\+$/
