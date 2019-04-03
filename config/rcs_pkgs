@@ -5,9 +5,12 @@ autotools-dev
 cryptsetup
 darktable
 doxygen
+dpkg-dev
 e2fslibs
 e2fslibs-dev
 e2fsprogs
+exfat-fuse
+exfat-utils
 exuberant-ctags
 facter
 inxi
@@ -16,6 +19,7 @@ gource
 graphviz
 imagemagick
 libncurses5-dev
+libssl-dev
 mc
 pandoc
 pep8
@@ -24,6 +28,8 @@ pigz
 pv
 pxz
 pylint
+python-dev
+python-pip
 python-setuptools
 geeqie
 qemu-utils
@@ -32,6 +38,7 @@ recoll
 shellcheck
 sparse
 sshfs
+sysstat
 vim-nox
 virtualenv
 virtualenvwrapper
