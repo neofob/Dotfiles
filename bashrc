@@ -113,12 +113,19 @@ if ! shopt -oq posix; then
 fi
 
 export POWERLINE_COMMAND=~/src/powerline/scripts/powerline
-. ~/src/powerline/powerline/bindings/bash/powerline.sh
+source ~/src/powerline/powerline/bindings/bash/powerline.sh
 
-export WORKON_HOME=~/.env
+export WORKON_HOME=~/.virtualenvs
 mkdir -p $WORKON_HOME
 
-function docker_rm_all()
-{
-	docker ps -a | tail -n +2 | awk '{print $1}' | xargs docker rm $1
-}
+source /usr/local/bin/virtualenvwrapper.sh
+umask 022
+export PATH="/usr/local/cuda/bin:$HOME/miniconda3/bin:$HOME/.tfenv/bin:$PATH"
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+alias docker_clear="docker system prune && docker volume prune --all"
+
+export LD_LIBRARY_PATH="/usr/local/cuda/lib64"
+alias ffmpeg_docker="docker run -w /tmp/work -v /tmp:/tmp/work --rm -it linuxserver/ffmpeg:latest"

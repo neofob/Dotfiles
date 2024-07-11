@@ -1,0 +1,15 @@
+---
+#instruct.yml
+instruct:
+  url: "localhost"
+  port: 8001
+  # 8 hours
+  timeout: 28800
+  #prompt_file: NONE
+  #  filename: prompts.yaml
+  #  index: 42
+  system: "You are an expert in macroeconomics and world geopolitics."
+  instruct: "Summarize the following conversation transcript into 5 points."
+  #textFile:
+  outputPostfix: "-Summary"
+  outputExtension: "md"

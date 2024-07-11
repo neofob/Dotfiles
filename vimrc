@@ -77,6 +77,7 @@ autocmd Syntax yaml syn match WhiteSpace /\s\+$/
 if has("syntax")
 	highlight WhiteSpace ctermbg=red guibg=red
 	autocmd BufNewFile,BufRead *.sh match WhiteSpace /\s\+$/
+	autocmd BufNewFile,BufRead *.sh setlocal ts=4 sw=4 noexpandtab
 endif
 
 set pastetoggle=<F10>
