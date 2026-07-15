@@ -1,0 +1,64 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "plugin": ["https://github.com/obra/superpowers"],
+  "provider": {
+    "ollama-local": {
+      "npm": "@ai-sdk/openai-compatible",
+      "options": {
+        "baseURL": "http://cachyos-ollama:11434/v1"
+      },
+      "models": {
+	"qwen3-coder:30b": {
+          "name": "qwen3-coder 30b"
+        },
+        "qwen3.6:35b": {
+          "name": "qwen 3.6 35b"
+        },
+        "gemma4:26b-a4b-it-q8_0": {
+          "name": "gemma4 26b a4b"
+        },
+        "gemma4:26b-a4b-it-qat": {
+          "name": "gemma4 26b a4b qat"
+        },
+        "gemma4:26b": {
+          "name": "gemma4 26b"
+        },
+        "gemma4:31b": {
+          "name": "gemma4 31b"
+        },
+        "gemma4:31b-it-qat": {
+          "name": "gemma4 31b qat"
+        },
+        "nemotron-cascade-2:30b": {
+          "name": "nemotron-cascade-2 30b"
+        },
+        "nemotron3:33b": {
+          "name": "nemotron3 33b"
+        },
+        "nemotron-3-super:120b": {
+          "name": "nemotron-3-super 120b"
+        },
+        "devstral-2:123b": {
+          "name": "devstral-2 123b"
+        }
+      }
+    },
+    "vagrant-dev": {
+      "npm": "@ai-sdk/openai-compatible",
+      "options": {
+        "baseURL": "http://vagrant-dev.local:11434/v1"
+      },
+      "models": {
+        "gemma4:31b": {
+          "name": "gemma4 31b"
+        },
+        "gemma4:31b-it-qat": {
+          "name": "gemma4 31b-it-qat"
+        },
+        "nemotron3:33b-q4_K_M": {
+          "name": "nemotron3 33b-q4_K_M"
+        }
+      }
+    }
+  }
+}
